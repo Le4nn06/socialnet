@@ -1,0 +1,58 @@
+@media screen and (max-width:470px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    section{
+        flex-direction: column;  
+    }
+    
+    .fotos{
+        width: 100vw;
+    }
+    
+    .foto1,.foto2,.foto3,.foto4{
+        width: 50vw;
+        height: 50vw;
+    }
+    
+    .info{
+       display: none; 
+    }
+    
+    p{
+        font-size: 4vw;
+        text-align: center;   
+
+    }
+    
+    h1{
+        width: 58vw;
+        font-size: 15vw;
+    }
+    
+    .followers,.following,.posts{
+        width: 10vw;
+        font-size: 3vw;
+        text-align: center;
+        justify-content: center
+        ;
+    }
+
+    h2{
+        font-size: 8vw;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    p2{
+        text-align: center;
+    }
+
+    }
+    
+    .stats{
+        justify-content: space-evenly;
+    }
+    
+
